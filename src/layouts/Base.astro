@@ -6,6 +6,7 @@ import Navbar from '@components/Navbar.astro';
 import SearchTrigger from '@components/search/SearchTrigger.astro';
 import { site } from '@config/site';
 import Analytics from '@vercel/analytics/astro';
+import SpeedInsights from '@vercel/speed-insights/astro'
 import { ClientRouter } from 'astro:transitions';
 
 interface Props {
@@ -326,5 +327,6 @@ const personJsonLd = isHome ? JSON.stringify({
     </script>
 
     {import.meta.env.PROD && <Analytics />}
+    {import.meta.env.PROD && <SpeedInsights />}
   </body>
 </html>
