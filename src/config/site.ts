@@ -24,10 +24,10 @@ export const site = {
   // ─── Identity ──────────────────────────────────────────────────────────────
 
   /** Site title. Shown in the browser tab and navbar. */
-  title: 'Albert Einstein',
+  title: "Artur's Space",
 
   /** Site description. Used in meta tags. */
-  description: 'A simple, clean, and responsive Astro template for academics. Powered by as-folio.',
+  description: 'Projects, notes, and technical artifacts by Artur.',
 
   /**
    * Full URL of your deployed site (no trailing slash).
@@ -50,10 +50,10 @@ export const site = {
 
   author: {
     /** Full name shown in navbar, about page heading, and footer. */
-    name: 'Albert Einstein',
+    name: 'Artur Gasparyan',
 
     /** Short email address (used in social links). */
-    email: 'einstein@example.com',
+    email: 'gasparyanartur99@gmail.com',
 
     /** Path to profile photo. Place image in public/assets/img/. */
     avatar: '/assets/img/prof_pic.jpg',
@@ -62,18 +62,12 @@ export const site = {
      * Subtitle below your name on the about page.
      * HTML is supported.
      */
-    subtitle: `Theoretical Physicist
-      &nbsp;·&nbsp;
-      <a href="https://en.wikipedia.org/wiki/Institute_for_Advanced_Study">Institute for Advanced Study</a>,
-      Princeton`,
-
+    subtitle: `ML Research Engineer · Generative Models · Representation Learning`,
     /**
      * Address block below profile photo.
      * HTML is supported.
      */
-    moreInfo: `<p>Institute for Advanced Study</p>
-      <p>Einstein Drive</p>
-      <p>Princeton, NJ 08540</p>`,
+    moreInfo: ``,
   },
 
   // ─── Social links ──────────────────────────────────────────────────────────
@@ -85,10 +79,10 @@ export const site = {
   //   bluesky_handle, medium_username, cv_pdf, rss_icon
 
   socials: {
-    email: 'einstein@example.com',
+    email: 'gasparyanartur99@gmail.com',
     x_username: undefined as string | undefined,
-    linkedin_username: undefined as string | undefined,
-    github_username: undefined as string | undefined,
+    linkedin_username: 'gasparyanartur' as string | undefined,
+    github_username: 'gasparyanartur' as string | undefined,
     gitlab_username: undefined as string | undefined,
     /** Google Scholar user ID — the part after user= in your Scholar URL */
     scholar_userid: 'qc6CJjYAAAAJ',
@@ -98,10 +92,11 @@ export const site = {
     researchgate_username: undefined as string | undefined,
     arxiv_id: undefined as string | undefined,
     youtube_id: undefined as string | undefined,
-    instagram_username: undefined as string | undefined,
+    instagram_username: 'knug_artur' as string | undefined,
     mastodon_url: undefined as string | undefined,
     bluesky_handle: undefined as string | undefined,
     medium_username: undefined as string | undefined,
+    discord_username: 'gasparyanartur' as string | undefined,
     /** Path to CV PDF in public/assets/pdf/ */
     cv_pdf: '/assets/pdf/example_pdf.pdf',
     /** Show RSS icon in social links */
@@ -125,18 +120,18 @@ export const site = {
     items: [
       { label: 'about', href: '/' },
       { label: 'blog', href: '/blog/' },
-      { label: 'publications', href: '/publications/' },
+      // { label: 'publications', href: '/publications/' },
       { label: 'projects', href: '/projects/' },
       { label: 'repositories', href: '/repositories/' },
       { label: 'cv', href: '/cv/' },
-      {
+      /*{
         label: 'more',
         children: [
           { label: 'teaching', href: '/teaching/' },
           { label: 'people', href: '/people/' },
           { label: 'books', href: '/books/' },
         ],
-      },
+      },*/
     ] as NavItem[],
   },
 
