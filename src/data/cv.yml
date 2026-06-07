@@ -2,12 +2,12 @@
 # Used by the CV page when site.cv.format is 'rendercv'.
 
 cv:
-  name: Albert Einstein
-  location: Princeton, NJ
-  email: einstein@example.com
-  phone: tel:+1-000-000-0000
-  website: https://example.github.io
-  summary: A German-born theoretical physicist widely regarded as one of the greatest scientists of all time. Best known for developing the theory of relativity, the most important pillar along with quantum mechanics of modern physics.
+  name: Artur Gasparyan
+  location: Stockholm, Sweden
+  email: gasparyanartur99@gmail.com
+  phone: tel:+46722724045
+  website: https://arturspace.dev
+  summary: TODO.
   social_networks:
     - network: GitHub
       username: example
